@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Redressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    padding: 60px;
+    background-color: #CA965C;
+    color: #F4DFBA;
+}
+
+.title {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    bottom: 140px;
+}
+
+
+.coffee-heading {
+    font-family: 'Redressed', cursive;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.coffee-text {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.image {
+    width: 50%;
+}
+
+.coffee-image {
+    width: 400px;
+    height: 500px;
+    border-radius: 35%;
+    display: inline-block;
+    margin-left: 180px;
+}
+
+#description {
+    padding: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.coffee-list {
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+
+.coffee-item {
+    margin: 40px 0;
+}
+
+#about {
+    background-color: #EEC373;
+    text-align: center;
+    color: #876445;
+}
+
+.desc-image {
+    width: 400px;
+    height: 360px;
+    border-radius: 100%;
+}
+
+.left {
+    padding: 40px;
+}
+
+.right {
+    padding: 40px;
+}
+
+.left-image {
+    margin-left: 50px;
+}
+
+.right-image {
+    margin-right: 50px;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #876445;
+    text-align: center;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 27px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#register {
+    background-color: #F4DFBA;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    padding: 40px;
+    font-size: 20px;
+    color: #876445;
+}
+
+th {
+    padding: 25px;
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+}
+
+.register-form {
+    width: 50%;;
+    background-color: #CA965C;
+    margin: 0 auto 10px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+label {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+input[type=text], input[type=email] {
+    border: none;
+    width: 70%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+select {
+    width: 70%;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 28px;
+    background-color: #F4DFBA;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+input[type=checkbox] {
+    margin: 0 16px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register</title>
+  </head>
+  <body id="register">
+    <h1 class="coffee-heading">Plans</h1>
+    <table>
+      <tr>
+        <th>Features</th>
+        <th>Basic</th>
+        <th>Super</th>
+        <th>Preium</th>
+      </tr>
+      <tr>
+        <td>Subscription Card</td>
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+      </tr>
+      <tr>
+        <td>Discount coupon</td>
+        <td>upto 10%</td>
+        <td>upto 25%</td>
+        <td>upto 40%</td>
+      </tr>
+      <tr>
+        <td>Mug and T-shirt</td>
+        <td>&#10006;</td>
+        <td>&#10006;</td>
+        <td>&#10004;</td>
+      </tr>
+      <tr>
+        <td>Yearly coffee gift</td>
+        <td>&#10006;</td>
+        <td>&#10006;</td>
+        <td>&#10004;</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <h1 class="coffee-heading">Register Here</h1>
+    <div class="register-form">
+      <form action="">
+        <label for="fname">Enter Your Name:</label><br />
+        <input type="text" name="fname" id="fname" /><br />
+        <label for="userEmail">Enter your Email: </label><br />
+        <input type="email" name="email" id="emial" /><br />
+        <label for="coffee">Choose your favoriate coffee: </label><br />
+        <input type="checkbox" name="one" id="one" />
+        <label for="one">Cappuccino</label>
+        <input type="checkbox" name="two" id="two" />
+        <label for="two">Black Coffee</label>
+        <input type="checkbox" name="three" id="three" />
+        <label for="three">Latte</label>
+        <input type="checkbox" name="one" id="one" />
+        <label for="one">Espressso</label>
+        <br />
+        <label for="plan">Choose your Plan: </label>
+        <select name="plan" id="plan">
+          <option value="Basic">Basic</option>
+          <option value="Super">Super</option>
+          <option value="Preium">Preimium</option>
+        </select>
+        <br />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>
